@@ -1,0 +1,439 @@
+/* global section start */
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+.common_btn {
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+/* global section end */
+
+
+/* navigation bar start */
+.navbar {
+    margin: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.navbar-nav a {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #777777;
+}
+
+/* navigation bar end */
+
+/* carousol section start */
+.carousel-caption h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.carousel-caption p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #F4F4F4;
+}
+
+/* carousol section end */
+
+/* popular courses section start */
+.popular_courses h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.course-banner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+.course h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #4A4A4A;
+}
+
+.course p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.course h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #289BDE;
+}
+
+/* popular courses section end */
+
+/* explore institute sectio start */
+.inst-text h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.inst-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+/* explore institute sectio end */
+
+
+/* ready to join section start */
+.join-inner {
+    background: #289BDE;
+    border-radius: 5px;
+}
+
+.join-text h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.join-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+
+.join-btn button {
+    background-color: white;
+    color: #289BDE;
+}
+
+/* ready to join section end */
+
+.modal-body h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* question-banner start */
+.question-banner h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.question-banner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+/* question-banner end */
+
+/* student section start */
+.students-text h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.students-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.student-btn a {
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: white;
+
+}
+
+
+
+/* student section end */
+
+/* accordion start */
+.accor-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+
+.accor-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+}
+
+/* accordion end */
+
+/* trusted-companies start */
+.trusted-companies {
+    margin: 130px 0;
+}
+
+.trusted-companies h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+footer {
+    height: 472px;
+    background: #161616;
+}
+
+footer h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E8E8E8;
+
+}
+
+.social-icon i {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    color: white;
+
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    Media Query Start 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel-caption h1 {
+        font-size: 19px;
+        line-height: 17px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 -15px;
+    }
+
+    .carousel-caption button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .common_btn {
+        padding: 4px 10px;
+        margin-bottom: -10px;
+    }
+
+    /* popular courses section start */
+    .course-banner h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .popular_courses p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* popular courses section end */
+
+    /* explore institute sectio start */
+
+
+    .inst-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .inst-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* explore institute sectio end */
+
+    /* ready to join start */
+    .join-text h1 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .join-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* ready to join end */
+
+    /* question-banner start */
+    .question-banner h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .question-banner p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* question-banner end */
+
+    /* accordion start */
+    .accor-text h2 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .accor-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* accordion end */
+
+    footer {
+        height: 249px;
+    }
+
+    footer h2 {
+        font-size: 30px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* explore institute sectio start */
+    .inst-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .inst-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* explore institute sectio end */
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* popular courses section start */
+    .popular_courses h2 {
+        font-size: 30px;
+    }
+
+    .popular_courses p {
+
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* popular courses section end */
+
+    /* explore institute sectio start */
+    .inst-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .inst-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* explore institute sectio end */
+
+    /* question-banner start */
+    .question-banner h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .question-banner p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* question-banner end */
+    footer {
+        height: 332px;
+    }
+}
