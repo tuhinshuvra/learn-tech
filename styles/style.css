@@ -258,7 +258,6 @@ footer p {
                     Media Query Start 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .carousel-caption h1 {
@@ -296,8 +295,6 @@ footer p {
     /* popular courses section end */
 
     /* explore institute sectio start */
-
-
     .inst-text h1 {
         font-size: 20px;
         line-height: 30px;
